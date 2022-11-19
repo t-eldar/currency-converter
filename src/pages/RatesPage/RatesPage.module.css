@@ -1,0 +1,31 @@
+@import '../../index.css';
+
+.select {
+  display: block;
+  margin: 0;
+  padding:  0.8rem;
+  color: inherit;
+  font-family: 'Roboto';
+  font-size:  2rem;
+  font-weight: inherit;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow 300ms;
+}
+.select > option {
+  font-size:  1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.baseCurrency {
+  display: block;
+  margin: 0;
+  padding:  0.8rem;
+  font-size: 2rem;
+  color: inherit;
+  font-family: 'Roboto';
+}

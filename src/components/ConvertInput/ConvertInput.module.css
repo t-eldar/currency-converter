@@ -1,0 +1,21 @@
+@import '../../index.css';
+.input {
+  display: block;
+  margin: 0;
+  padding:  0.8rem;
+  max-width: 50%;
+  color: inherit;
+  font-family: 'Roboto';
+  font-size:  2rem;
+  font-weight: inherit;
+  line-height: 1.8;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow 300ms;
+}
+
+
+.input:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem  #00000022;
+}
